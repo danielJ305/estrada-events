@@ -1,0 +1,354 @@
+
+/* font-family: 'Exo',
+sans-serif; */
+
+/* font-family: 'Yellowtail',
+cursive; */
+
+* {
+    margin:0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    margin:6%;
+}
+    .navbar .nav-tags,
+            .brand,
+            .login {
+                margin: auto;
+            }
+        .nav-tags {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Exo',
+            sans-serif;
+            text-align: center;
+        }
+            .nav-tags a {
+                margin-top:20%;
+                color:black;
+                text-decoration: none;
+            }
+            .nav-tags a:hover {
+                background-color:#212123;
+                color:white;
+            }
+        .brand {
+            margin-top:5%;
+            margin-bottom: 5%;
+            font-family: 'Yellowtail',
+            cursive;
+        }
+        .login {
+            margin-top:3%;
+
+        }
+            .login .icon36dp {
+                display: none;
+            }
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+    .intro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin:auto;
+        padding:6%;
+        max-width: 620px;
+        font-family: 'Exo',
+        sans-serif;
+    }
+        .intro h3, p {
+            margin-bottom:5%;
+        }
+        .intro h3 {
+            font-family: 'Yellowtail',
+            cursive;
+            font-size: 1.4em;
+        }
+        .intro button {
+            width:9em;
+            max-width:400px;
+            margin: auto;
+            margin-top: 2.5%;
+            margin-bottom: 1.5%;
+            font-family: 'Exo',
+            sans-serif;
+            height:3em;
+            font-size: 0.9em;
+            clip-path: polygon(20% 0, 100% 0%, 80% 100%, 0% 100%);
+            border-style: none;
+            color: white;
+            font-weight: bold;
+            background-color: #212123;
+        }
+        .welcome-img img {
+            width:150vw;
+            height:auto;
+            clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+            
+        }
+
+        .testimonials {
+            margin:5%;
+            display: flex;
+            flex-direction: column;
+        }
+            .testimonial-text {
+                margin:auto;
+                margin-top: 6%;
+                text-align: center;
+                max-width: 620px;
+            }
+                .testimonial-text h5 {
+                    font-family: 'Yellowtail',
+                    cursive;
+                    font-size: 1.5em;
+                }
+                .testimonial-text p {
+                    font-family: 'Exo',
+                    sans-serif;
+                    margin-top:3%;
+                }
+            .testimonial-img-container {
+                display: flex;
+                flex-wrap: wrap;
+                flex-grow: 1;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Exo',
+                sans-serif;
+            }
+                .testimonial-img {
+                    margin:5%;
+                }
+                    .testimonial-img img {
+                        width:180px;
+                        height:180px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .testimonial-img p {
+                        margin-top: 5%;
+                        width: 220px;
+                    }
+                    .testimonial-img h5 {
+                        font-family: 'Yellowtail',
+                        cursive;
+                        font-size:1em;
+                    }
+
+.event-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:5%;
+}
+    .event-intro {
+        font-family: 'Yellowtail',
+        cursive;
+    }
+
+            .event-text {
+                font-family: 'Exo',
+                sans-serif;
+                max-width: 500px;
+                margin: auto;
+                padding-left:6%;
+                padding-right:6%;
+                margin-top:8%;
+            }
+    .event-items img {
+        width:150vw;
+        height:auto;
+        clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    }
+
+
+
+.rsvp {
+    display: flex;
+    flex-direction: column;
+}
+    .rsvp-title {
+        text-align: center;
+        margin-top: 10%;
+        color:white;
+        background-color:#212123;
+        padding:1%;
+    }
+        .rsvp-title h5 {
+            font-family: 'Yellowtail',
+            cursive;
+            font-size: 1.5em;
+        }
+        .rsvp-title p {
+            font-family: 'Exo',
+            sans-serif;
+            font-size:0.9em;
+            margin:0;
+        }
+    .rsvp-invite {
+        display: flex;
+        flex-direction: column;
+        margin:6%;
+        font-family: 'Exo',
+        sans-serif;
+        text-align: center;
+    }
+        .submission {
+            display: flex;
+            flex-direction: column;
+        }
+            .submission input {
+                width:70%;
+                max-width:350px;
+                margin: auto;
+                margin-bottom: 4%;
+                height:2em;
+                background-color:#212123;
+                color:white;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+                font-size:1em;
+                padding-left:2em;
+                border-style: none;
+            }
+            .submission select {
+                width:50%;
+                max-width:300px;
+                margin: auto;
+                padding:0;
+                margin-top: 4%;
+                margin-bottom: 4%;
+                font-family: 'Exo',
+                sans-serif;
+                padding:0.5em;
+                color: black;
+                font-weight: bold;
+                border-style: none;
+                border-left: .5em solid #212123;
+                border-top: .2em solid #212123;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                background-image: url('sharp-keyboard_arrow_down-24px(1).svg');
+                background-repeat: no-repeat,
+                repeat;
+                background-position: right .7em top 50%,
+                0 0;
+                background-size: 1.5em auto,
+                100%;
+            }
+            .submission button {
+                width:9em;
+                margin: auto;
+                margin-top: 3.5%;
+                margin-bottom: 3.5%;
+                font-family: 'Exo',
+                sans-serif;
+                height:3em;
+                font-size: 0.9em;
+                clip-path: polygon(20% 0, 100% 0%, 80% 100%, 0% 100%);
+                border-style: none;  
+                color: white;
+                font-weight: bold;
+                background-color: #212123;
+            }
+
+            .submission label {
+                margin-bottom: 4%;
+            }
+                .submission .viplabel {
+                    margin-top: 4%;
+                    margin-bottom: 1%;
+                    font-weight: bold;
+                }
+            .submission h5 {
+                font-size: 1.1em;
+                margin-bottom:4%;
+            }
+
+.reserve {
+    margin-top:5%;
+    font-size:1.5em;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .nav-tags {
+        font-size:1.2em;
+    }
+    .brand {
+        font-size:1.8em;
+    }
+    .login .icon24dp {
+        display:none;
+    }
+    .login .icon36dp {
+        display: block;
+    }
+    .intro h3 {
+        font-size:1.8em;
+    }
+    .intro p {
+        font-size:1.2em;
+    }
+    .intro button {
+        width:10em;
+    }
+    .testimonial-text h5 {
+        font-size:1.8em;
+    }
+    .testimonial-text p {
+        font-size:1.2em;
+    }
+    .testimonial-img {
+        font-size:1.2em;
+    }
+        .testimonial-img {
+            margin-bottom:0px;
+        }
+    .event-intro h2 {
+        font-size:1.8em;
+    }
+    .event-items p {
+        font-size:1.2em;
+    }
+    .rsvp h5 {
+        font-size:1.8em;
+    }
+    .rsvp p, label {
+        font-size:1.2em;
+    }
+    .submission button {
+        width:10em;
+    }
+    .reserve {
+        font-size:1.8em;
+    }
+}
+        
+@media screen and (min-width: 1024px) {
+    .navbar {
+        margin-bottom: 3%;
+    }
+    .nav-tags {
+        display: flex;
+        flex-direction: row;
+    }
+        .nav-tags a {
+            margin:0;
+            width:10em;
+            padding:2%;
+            margin-left:3%;
+            margin-right:3%
+        }
+}
