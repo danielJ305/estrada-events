@@ -12,6 +12,8 @@ body {
     margin-bottom:3%;
     margin-top:3%;
     color: #212123;
+    max-width: 1200px !important;
+    margin:auto;
 }
     .navbar .nav-tags,
             .brand,
@@ -151,18 +153,24 @@ body {
                     }
 
 .event-container {
+    background-color: #212123;
+    width:100%;
+}
+.event-container-wrap {
+    max-width: 1200px;
+    margin:auto;
     display:flex;
     flex-direction: column;
     text-align: center;
     margin-top:3%;
     color: white;
-    background-color: #212123;
 }
     .event-intro {
         font-family: 'Yellowtail',
         cursive;
         margin-top:4%;
         margin-bottom: 4%;
+        text-align: center;
     }
             .event-text {
                 font-family: 'Exo',
@@ -191,7 +199,7 @@ body {
         text-align: center;
         color:#212123;
         background-color:white;
-        padding:3%;
+        padding:20px;
     }
         .rsvp-title h5 {
             font-family: 'Yellowtail',
@@ -309,6 +317,8 @@ body {
     font-family: 'Exo',
     sans-serif;
     color:#212123;
+    width: 1200px;
+    margin:auto;
 }
 
 .footer-links {
@@ -444,8 +454,11 @@ body {
             margin-right: auto;
             text-align: center;
         }
-
     .intro1024 {
+        background-color: #212123;
+        width:100%;
+    }
+    .intro1024-wrap {
         display: flex;
         justify-content: center;
         margin:auto;
@@ -454,8 +467,10 @@ body {
         background-color: #212123;
         height:88vh;
         width:100vw;
+        max-width: 1200px;
+        margin:auto;
     }
-        .intro1024 button {
+        .intro1024-wrap button {
             color:#212123;
             background-color: white;
         }
@@ -503,7 +518,7 @@ body {
             font-size:1.5em;
         }
 
-    .event-container {
+    .event-container-wrap {
         background-color: #212123;
         color:white;
     }
